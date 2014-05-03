@@ -1,4 +1,4 @@
-package hadoop;
+package hadoop_retrieval;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -17,7 +17,7 @@ import org.json.simple.parser.ParseException;
 
 import common.QueryBean;
 
-public class QueryResultsHadoop_temp {
+public class QueryResultsHadoop {
 	
 //	public static void main (String args[]) throws IOException{
 //		QueryBean query = null;
