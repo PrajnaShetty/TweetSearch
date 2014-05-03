@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee" version="2.5">
+  <servlet>
+    <servlet-name>GetQueryServletLucene</servlet-name>
+    <servlet-class>common.GetQueryServletLucene</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetQueryServletLucene</servlet-name>
+    <url-pattern>/GetQueryServletLucene</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetQueryServletHadoop</servlet-name>
+    <servlet-class>common.GetQueryServletHadoop</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetQueryServletHadoop</servlet-name>
+    <url-pattern>/GetQueryServletHadoop</url-pattern>
+  </servlet-mapping>
+</web-app>
